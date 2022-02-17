@@ -1,10 +1,5 @@
 # Quiz
 
-This project was build with 
-    ### [React](https://github.com/facebook/create-react-app)
-    ### [Typescript](https://www.typescriptlang.org/)
-    ### [Material UI](https://mui.com/)
-
 ## Available Scripts
 
 In the project directory, you can run:
