@@ -1,0 +1,163 @@
+{
+    "title": "Exam Level 3",
+    "description": "Tricky exam 🥇",
+    "background_color": "#08659B",
+    "questions": [
+        {
+            "id": 0,
+            "multipleAnswers": false,
+            "text": "What is Shakespeare's shortest play?",
+            "correct": [
+                1
+            ],
+            "answers": [
+                {
+                    "id": 0,
+                    "answer": "King Lear"
+                },
+                {
+                    "id": 1,
+                    "answer": "The Comedy of Errors"
+                },
+                {
+                    "id": 2,
+                    "answer": "Othello"
+                },
+                {
+                    "id": 3,
+                    "answer": "Richard II"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "multipleAnswers": false,
+            "text": "What are you doing?",
+            "correct": [
+                0
+            ],
+            "answers": [
+                {
+                    "id": 0,
+                    "answer": "Quiz"
+                },
+                {
+                    "id": 1,
+                    "answer": "Sleeping"
+                },
+                {
+                    "id": 2,
+                    "answer": "Falling from bridge"
+                },
+                {
+                    "id": 3,
+                    "answer": "Nothing"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "multipleAnswers": false,
+            "text": "What are you?",
+            "correct": [
+                3
+            ],
+            "answers": [
+                {
+                    "id": 0,
+                    "answer": "Food"
+                },
+                {
+                    "id": 1,
+                    "answer": "Programming language"
+                },
+                {
+                    "id": 2,
+                    "answer": "Car"
+                },
+                {
+                    "id": 3,
+                    "answer": "Person"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "multipleAnswers": false,
+            "text": "What is Joe Biden's middle name?",
+            "correct": [
+                1
+            ],
+            "answers": [
+                {
+                    "id": 0,
+                    "answer": "Albert"
+                },
+                {
+                    "id": 1,
+                    "answer": "Robinette"
+                },
+                {
+                    "id": 2,
+                    "answer": "Mark"
+                },
+                {
+                    "id": 3,
+                    "answer": "Arnold"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "multipleAnswers": false,
+            "text": "How many time zones are there in Russia?",
+            "correct": [
+                0
+            ],
+            "answers": [
+                {
+                    "id": 0,
+                    "answer": "11"
+                },
+                {
+                    "id": 1,
+                    "answer": "9"
+                },
+                {
+                    "id": 2,
+                    "answer": "none"
+                },
+                {
+                    "id": 3,
+                    "answer": "8"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "multipleAnswers": false,
+            "text": "What is your favorite quiz",
+            "correct": [
+                0
+            ],
+            "answers": [
+                {
+                    "id": 0,
+                    "answer": "This one"
+                },
+                {
+                    "id": 1,
+                    "answer": "Cermat"
+                },
+                {
+                    "id": 2,
+                    "answer": "Cisco quiz"
+                },
+                {
+                    "id": 3,
+                    "answer": "Some wierd kahoot"
+                }
+            ]
+        }
+    ]
+}

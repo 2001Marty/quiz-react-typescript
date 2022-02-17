@@ -1,0 +1,140 @@
+{
+    "title": "Exam Level 2",
+    "description": "Slightly harder exam 🥈",
+    "background_color": "#1597E5",
+    "questions": [
+        {
+            "id": 0,
+            "multipleAnswers": true,
+            "text": "Choose only cars",
+            "correct": [
+                0,
+                2
+            ],
+            "answers": [
+                {
+                    "id": 0,
+                    "answer": "Ford"
+                },
+                {
+                    "id": 1,
+                    "answer": "Josef"
+                },
+                {
+                    "id": 2,
+                    "answer": "Lada"
+                },
+                {
+                    "id": 3,
+                    "answer": "Magda"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "multipleAnswers": true,
+            "text": "Wich are eatable",
+            "correct": [
+                0,
+                3
+            ],
+            "answers": [
+                {
+                    "id": 0,
+                    "answer": "Cookies"
+                },
+                {
+                    "id": 1,
+                    "answer": "Bleach"
+                },
+                {
+                    "id": 2,
+                    "answer": "Concrete"
+                },
+                {
+                    "id": 3,
+                    "answer": "Oranges"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "multipleAnswers": false,
+            "text": "Who developed the theory of relativity?",
+            "correct": [
+                2,
+                3
+            ],
+            "answers": [
+                {
+                    "id": 0,
+                    "answer": "Me"
+                },
+                {
+                    "id": 1,
+                    "answer": "You"
+                },
+                {
+                    "id": 2,
+                    "answer": "Albert"
+                },
+                {
+                    "id": 3,
+                    "answer": "Person"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "multipleAnswers": false,
+            "text": "What is the capital city of New Zealand?",
+            "correct": [
+                1
+            ],
+            "answers": [
+                {
+                    "id": 0,
+                    "answer": "Tokyo"
+                },
+                {
+                    "id": 1,
+                    "answer": "Wellington"
+                },
+                {
+                    "id": 2,
+                    "answer": "New Zork"
+                },
+                {
+                    "id": 3,
+                    "answer": "Prague"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "multipleAnswers": false,
+            "text": "What color is Joe 🥶",
+            "correct": [
+                3
+            ],
+            "answers": [
+                {
+                    "id": 0,
+                    "answer": "Orange"
+                },
+                {
+                    "id": 1,
+                    "answer": "Red"
+                },
+                {
+                    "id": 2,
+                    "answer": "Transparent"
+                },
+                {
+                    "id": 3,
+                    "answer": "Blue"
+                }
+            ]
+        }
+    ]
+}

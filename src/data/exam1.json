@@ -1,0 +1,139 @@
+{   
+    "title": "Exam Level 1",
+    "description": " Simple exam suited for newcomers 🥉",
+    "background_color": "#51B9F6",
+    "questions": 
+    [
+        {
+            "id": 0,
+            "multipleAnswers": false,
+            "text": "What is result of 1 * 5",
+            "correct": [
+                0
+            ],
+            "answers": [
+                {
+                    "id": 0,
+                    "answer": 5
+                },
+                {
+                    "id": 1,
+                    "answer": 1
+                },
+                {
+                    "id": 2,
+                    "answer": 51
+                },
+                {
+                    "id": 3,
+                    "answer": "sto"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "multipleAnswers": true,
+            "text": "When is my birthday",
+            "correct": [
+                0,
+                3
+            ],
+            "answers": [
+                {
+                    "id": 0,
+                    "answer": "16.3"
+                },
+                {
+                    "id": 1,
+                    "answer": "3.1"
+                },
+                {
+                    "id": 2,
+                    "answer": "1.1"
+                },
+                {
+                    "id": 3,
+                    "answer": "Šesnáctého třetí"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "multipleAnswers": false,
+            "text": "What is JavaScript?",
+            "correct": [
+                1
+            ],
+            "answers": [
+                {
+                    "id": 0,
+                    "answer": "Food"
+                },
+                {
+                    "id": 1,
+                    "answer": "Programming language"
+                },
+                {
+                    "id": 2,
+                    "answer": "Car"
+                },
+                {
+                    "id": 3,
+                    "answer": "Person"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "multipleAnswers": false,
+            "text": "What is meaning of life?",
+            "correct": [
+                1
+            ],
+            "answers": [
+                {
+                    "id": 0,
+                    "answer": "Food"
+                },
+                {
+                    "id": 1,
+                    "answer": "There isn't such a thing"
+                },
+                {
+                    "id": 2,
+                    "answer": "Money"
+                },
+                {
+                    "id": 3,
+                    "answer": "Fame"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "multipleAnswers": false,
+            "text": "What color is escape sign",
+            "correct": [
+                0
+            ],
+            "answers": [
+                {
+                    "id": 0,
+                    "answer": "Green"
+                },
+                {
+                    "id": 1,
+                    "answer": "Red"
+                },
+                {
+                    "id": 2,
+                    "answer": "Transparent"
+                },
+                {
+                    "id": 3,
+                    "answer": "Golden"
+                }
+            ]
+        }
+    ]
+}
