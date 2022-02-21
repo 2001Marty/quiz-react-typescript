@@ -1,5 +1,4 @@
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'
-import React from 'react'
 
 const Countdown = ({ submitExam }: { submitExam: () => void }) => {
   const handleComplete = () => {

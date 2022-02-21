@@ -2,7 +2,7 @@ import { Box, Accordion, AccordionSummary, Typography, AccordionDetails } from '
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import React from 'react'
 
-import {Question} from '../../types/Question'
+import {Question, AnswerSelect, AnswerType} from '../../types/Question'
 
 interface AnswerItemProps {
     Q: Question;
@@ -19,10 +19,23 @@ interface AnswerItemProps {
 
 const AnswerItem = (props: AnswerItemProps) => {
     const {Q, index, data} = props;
-    const correct = Q.correct.sort((a, b) => a - b);
-    const yourAnswer = data?.questions[index].answer.sort((a, b) => a - b);
-    const correctText = Q.answers.map((a) => { if (Q.correct.includes(a.id)) return a.answer + " " })
-    const yourAnswerText = data?.questions[index].answer.map(a => { return Q.answers[a].answer + " " })
+    let correct : string | number[] = '';
+    let correctText;
+    let yourAnswer;
+    let yourAnswerText;
+    if(Q.type === AnswerType.SELECT){
+        correct = (Q.correct as number[]).sort((a, b) => a - b);
+        correctText = (Q.answers as AnswerSelect[]).map((a) => { if ((Q.correct as number[]).includes(a.id)) return a.answer + " " })
+        yourAnswer = data?.questions[index].answer.sort((a, b) => a - b);
+        yourAnswerText = data?.questions[index].answer.map(a => { return (Q.answers[a] as AnswerSelect).answer + " " })
+    }
+    if(Q.type === AnswerType.TEXT){
+        yourAnswer = data?.questions[index].answer
+        yourAnswerText = yourAnswer
+        correct = Q.correct
+        correctText = correct
+    }
+    
     let isCorrect = true;
 
     if (yourAnswer?.toString() !== correct.toString()) {

@@ -1,13 +1,20 @@
 export interface Question {
     id: number;
+    type: AnswerType;
     multipleAnswers: boolean;
     text: string;
-    answers: Answer[];
-    correct: number[];
+    answers: AnswerSelect[] | string;
+    correct: number[] | string;
 }
 
-interface Answer {
+export interface AnswerSelect {
     id: number;
     answer: string;
 
+}
+
+
+export enum AnswerType{
+    SELECT = 'select',
+    TEXT = 'text'
 }

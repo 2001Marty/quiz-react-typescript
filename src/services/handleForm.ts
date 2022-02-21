@@ -19,13 +19,12 @@ export const onRegister = (e: any, email: string, navigate: any) => {
             "examId": -1,
             
         }));
-        navigate(`/exam/email=${email}`)
+        navigate(`/exam/`)
     } else {
         if (JSON.parse(localStorage.getItem(email ? email : 'unknown') as string).isDone) {
-            const examId = JSON.parse(localStorage.getItem(email ? email : 'unknown') as string).examId;
-            navigate(`/exam${examId}/attempts/email=${email}`)
+            navigate(`/exam/attempts/`)
         }
-        navigate(`/exam/email=${email}`)
+        navigate(`/exam/`)
     }
 }
 

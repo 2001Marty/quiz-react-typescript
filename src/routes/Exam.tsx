@@ -3,9 +3,14 @@ import { useNavigate, useParams } from 'react-router-dom';
 
 import ExamItem from '../components/exam/ExamItem'
 
-const Exam = () => {
+interface ExamProps{
+  email: string;
+  setExam: Function;
+}
+
+const Exam = (props: ExamProps) => {
   const navigate = useNavigate();
-  const { email } = useParams();
+  const { email, setExam } = props;
 
   return (
     <>
@@ -16,6 +21,7 @@ const Exam = () => {
           <ExamItem key={index}
           email={email}
           examId={index+1}
+          setExam={setExam}
         />
         )
       })}

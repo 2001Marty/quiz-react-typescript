@@ -5,9 +5,15 @@ import { Typography, Box } from '@mui/material'
 import ResetDialog from '../components/attempts/ResetDialog'
 import AnswerItem from '../components/attempts/AnswerItem'
 
-const Attempts = () => {
-  const navigate = useNavigate();
-  const { examId, email } = useParams();
+interface AttemptsProps{
+  email: string;
+}
+
+const Attempts = (props: AttemptsProps) => {
+  const { email } = props;
+  const navigate = useNavigate();;
+  console.log(email);
+  const examId = JSON.parse(localStorage.getItem(email ? email : 'unknown') as string).examId
   const questions = require(`../data/exam${examId}.json`).questions;
   const [data, setData] = useState<{ email: string, isDone: boolean, questions: { answer: number[], isCorrect: boolean }[] } | undefined>(undefined);
   const score = data?.questions.filter(q => (q.isCorrect)).length;

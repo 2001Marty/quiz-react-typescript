@@ -5,6 +5,7 @@
     "questions": [
         {
             "id": 0,
+            "type" : "select",
             "multipleAnswers": false,
             "text": "What is Shakespeare's shortest play?",
             "correct": [
@@ -31,6 +32,7 @@
         },
         {
             "id": 1,
+            "type" : "select",
             "multipleAnswers": false,
             "text": "What are you doing?",
             "correct": [
@@ -57,6 +59,7 @@
         },
         {
             "id": 2,
+            "type" : "select",
             "multipleAnswers": false,
             "text": "What are you?",
             "correct": [
@@ -83,6 +86,7 @@
         },
         {
             "id": 3,
+            "type" : "select",
             "multipleAnswers": false,
             "text": "What is Joe Biden's middle name?",
             "correct": [
@@ -109,6 +113,7 @@
         },
         {
             "id": 4,
+            "type" : "select",
             "multipleAnswers": false,
             "text": "How many time zones are there in Russia?",
             "correct": [
@@ -135,6 +140,7 @@
         },
         {
             "id": 5,
+            "type" : "select",
             "multipleAnswers": false,
             "text": "What is your favorite quiz",
             "correct": [

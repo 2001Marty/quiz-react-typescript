@@ -5,6 +5,7 @@
     "questions": [
         {
             "id": 0,
+            "type" : "select",
             "multipleAnswers": true,
             "text": "Choose only cars",
             "correct": [
@@ -32,6 +33,7 @@
         },
         {
             "id": 1,
+            "type" : "select",
             "multipleAnswers": true,
             "text": "Wich are eatable",
             "correct": [
@@ -59,6 +61,7 @@
         },
         {
             "id": 2,
+            "type" : "select",
             "multipleAnswers": false,
             "text": "Who developed the theory of relativity?",
             "correct": [
@@ -86,6 +89,7 @@
         },
         {
             "id": 3,
+            "type" : "select",
             "multipleAnswers": false,
             "text": "What is the capital city of New Zealand?",
             "correct": [
@@ -112,6 +116,7 @@
         },
         {
             "id": 4,
+            "type" : "select",
             "multipleAnswers": false,
             "text": "What color is Joe 🥶",
             "correct": [

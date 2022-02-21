@@ -6,6 +6,7 @@
     [
         {
             "id": 0,
+            "type": "select",
             "multipleAnswers": false,
             "text": "What is result of 1 * 5",
             "correct": [
@@ -32,6 +33,7 @@
         },
         {
             "id": 1,
+            "type": "select",
             "multipleAnswers": true,
             "text": "When is my birthday",
             "correct": [
@@ -59,6 +61,7 @@
         },
         {
             "id": 2,
+            "type": "select",
             "multipleAnswers": false,
             "text": "What is JavaScript?",
             "correct": [
@@ -85,6 +88,7 @@
         },
         {
             "id": 3,
+            "type": "select",
             "multipleAnswers": false,
             "text": "What is meaning of life?",
             "correct": [
@@ -111,6 +115,15 @@
         },
         {
             "id": 4,
+            "type": "text",
+            "multipleAnswers": false,
+            "text": "What is name of Czech capital city?",
+            "correct": "Prague",
+            "answers": ""
+        },
+        {
+            "id": 5,
+            "type" : "select",
             "multipleAnswers": false,
             "text": "What color is escape sign",
             "correct": [
